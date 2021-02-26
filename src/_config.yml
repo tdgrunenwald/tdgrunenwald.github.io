@@ -19,7 +19,7 @@ author:
   email:             tylergrunenwald@gmail.com
 
 # Build settings
-destination: ../www
+destination: ../docs # location served by GH pages
 
 # Gems
 plugins:
