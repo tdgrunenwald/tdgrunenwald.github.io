@@ -9,8 +9,8 @@ paginate:            5
 permalink:           pretty
 excerpt_separator:   <!--more-->
 
-  #linkedin_username: tylergrunenwald
-  #github_username:  tdgrunenwald
+linkedin_username: tylergrunenwald
+github_username:  tdgrunenwald
 
 # About/contact
 author:
@@ -19,7 +19,7 @@ author:
   email:             tylergrunenwald@gmail.com
 
 # Build settings
-destination: ../docs # location served by GH pages
+destination: _site
 
 # Gems
 plugins:

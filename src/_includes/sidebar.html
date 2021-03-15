@@ -4,8 +4,15 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+
+  <div class="sidebar-item">
+  	<img class="profile-image" src="{{ '/public/images/profile.png' | absolute_url }}"/>
+  </div>
+
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
+	<a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+	<a href="https://github.com/{{ site.github_username }}">GitHub</a>
   </div>
 
   <nav class="sidebar-nav">

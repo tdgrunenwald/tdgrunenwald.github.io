@@ -27,3 +27,8 @@
 @import "posts";
 @import "pagination";
 @import "message";
+
+.profile-image {
+	border-radius: 50%;
+	border: 5px solid #373737;
+}
